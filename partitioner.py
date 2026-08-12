@@ -4,7 +4,7 @@ import argparse
 from pathlib import Path
 
 # Keep the chunk strictly below 99 MB.
-CHUNK_SIZE = 99 * 1024 * 1024 - 1
+CHUNK_SIZE = 9 * 1024 * 1024 - 1
 
 
 def split_file(input_file: Path, output_dir: Path):
